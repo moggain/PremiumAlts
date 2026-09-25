@@ -1,0 +1,59 @@
+# Gradle directories and builds
+.gradle/
+build/
+**/build/
+bin/
+**/bin/
+out/
+**/out/
+
+# Fabric Loom & Minecraft run directories
+.loom-cache/
+**/.loom-cache/
+.fabric/
+**/.fabric/
+loom-cache/
+run/
+**/run/
+runs/
+**/runs/
+
+# IDE / Editor files
+.idea/
+**/.idea/
+*.iml
+**/*.iml
+*.ipr
+*.iws
+.vscode/
+**/.vscode/
+.classpath
+.project
+.settings/
+**/.settings/
+
+# Operating system & temporary files
+.DS_Store
+**/.DS_Store
+Thumbs.db
+**/Thumbs.db
+desktop.ini
+**/desktop.ini
+*.tmp
+*.log
+
+# Sensitive account data & runtime logs (never commit credentials!)
+alts/
+**/alts/
+*.json.bak
+crash-reports/
+**/crash-reports/
+logs/
+**/logs/
+
+# Scratch & test scripts
+scratch/
+check_version.ps1
+check.py
+check.ps1
+check_*.ps1
