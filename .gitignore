@@ -1,0 +1,40 @@
+# Gradle
+.gradle/
+build/
+bin/
+out/
+
+# Loom / Fabric
+.loom-cache/
+.fabric/
+loom-cache/
+run/
+runs/
+
+# IDE / Editor files
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.classpath
+.project
+.settings/
+
+# OS temporary files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.log
+
+# Sensitive account data & runtime logs
+alts/
+*.json.bak
+crash-reports/
+logs/
+
+# Scratch files
+scratch/
+check_*.ps1
+check.*
